@@ -13,7 +13,7 @@ public class CalcServlet extends HttpServlet {
 	throws ServletException, IOException 
 	{
 		PrintWriter out = response.getWriter();
-		out.println("<h1>Calculator WebApp</h1>");
+		out.println("<h1>Calculator WebApp</h1><BR>");
 		
 		// Calculator 
 		String number1 = request.getParameter("txtNum1");
